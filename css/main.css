@@ -1,0 +1,50 @@
+/* 
+Comments: CMD + / or CTRL + /
+How this works:
+
+Css Syntax
+
+selector (element/id/class) {
+    Property: value;
+}
+
+selectors can be
+- elements
+-id 
+-class 
+-or a combination of all the above
+
+What is an id?
+-an attribute that you add to an element you should assign a unique name to the value of that id
+*/
+
+label {
+    color: red
+}
+
+#changeTextToBlue {
+    color:blue
+}
+
+.changeToGreen {
+    color: green
+}
+
+body {
+    margin-bottom: 5000px;
+}
+
+div span {
+    color: peru
+}
+
+div #editMe {
+    color: purple
+}
+
+.someClass #someID {
+    color:darkkhaki;
+}
+#someID.someOtherClass {
+    color: darkred
+}

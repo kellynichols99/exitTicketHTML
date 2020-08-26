@@ -3,12 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Master</title>
+    <title>Intro CSS</title>
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-      <h1>Master Branch</h1>
+      <h1>Intro CSS</h1>
 
-  </body>
+      <h3>Basics</h3>
+
+      <h4>Inline Styles</h4>
+
+      <i>You have in-line styles by adding a style attribute to each element to apply a style to it.</i>
+
+      <br>
+      <br>
+      <br>
+      <p> Ex. I want the following text to be red: <span style="color: red;">See I am red with inline styles</span></p>
+
+      <h4>External Stylesheet</h4>
+
+      <i>An external stylesheet is connected to the HTML with a link tag in the head element </i>
+
+      <br>
+      <br>
+      <br>
+      <p> Ex. I want the following text to be red: <label>See I am red with inline styles</label></p>
+  
+
+      <h3>Core CSS Concepts<h3>
+
+        <span>Selectors</span>
+        <h3>ID selector</h3>
+
+        <p>ex:instead of using a label element tag I am going to use an id <span id="changeTextToBlue">see I am blue</span></p>
+      
+      <h3>Class Selector</h3>
+
+      <p class="changeToGreen">I</p>
+      <p class="changeToGreen">Want</p>
+      <p class="changeToGreen">all</p>
+      <P class="changeToGreen">Of these p tags to have the same style</P>
+
+      <h3> Combining Selectors</h3>
+
+      <h4>element + element</h4>
+
+      <div>
+        This is div that contatins a span that I want to edit
+        <span>I am the span</span>
+      </div>
+  
+      <h4>element + id</h4>
+
+      <div>
+        this div has another div with a specific
+        id I want to edit
+        <div id="editMe">i am div with id</div>
+      </div>
+  
+<h4>class id</h4>
+
+<div class="someClass">
+  someClass
+  <div id="someID">I am someID</div>
+</div>
+
+<div class="someclass">
+  someClass
+  <div id="someID" class="someOtherClass">I am someID with someOtherClass</div>
+</div>
+
+    </body>
 </html>
 
 
