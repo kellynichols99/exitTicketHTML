@@ -1,0 +1,46 @@
+p {
+    text-align: center;
+}
+
+#nestedDiv {
+display: flex;
+justify-content: center;
+}
+
+body {
+    margin-bottom: 5000px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+#white {
+    background-color: white;
+    position: relative;
+    border: 1px dashed;
+}
+
+#moveme {
+    background-color: lightgreen;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#icon {
+    width: 10px;
+    position: absolute;
+    top: 08px;
+    left: 45px;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#wrapper input {
+    position: absolute
+}
